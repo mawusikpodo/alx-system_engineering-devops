@@ -1,1 +1,2 @@
-Print wording directory
+# The commands used:
+pwd
