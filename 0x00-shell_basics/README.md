@@ -10,3 +10,7 @@
 ## Task 8: ```rm /tmp/my_first_directory/betty ```<br>
 ## Task 9: ```rm -r /tmp/my_first_directory``` <br>
 ## Task 10: ```cd -``` <br>
+## Task 11: ```ls -a . .. /boot``` <br>
+## Task 12: ```file /tmp/iamafile``` <br>
+## Task 13: ```ln -s /bin/ls __ls__``` <br>
+## Task 14: ```cp -u *.html ../``` <br>
