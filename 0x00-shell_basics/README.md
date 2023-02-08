@@ -1,4 +1,5 @@
 # The commands used:
-pwd
-ls
-cd ~
+pwd/n
+ls/n
+cd ~/n
+ls -l/n
