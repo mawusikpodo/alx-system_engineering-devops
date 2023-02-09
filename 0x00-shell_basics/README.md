@@ -14,3 +14,7 @@
 ## Task 12: ```file /tmp/iamafile``` <br>
 ## Task 13: ```ln -s /bin/ls __ls__``` <br>
 ## Task 14: ```cp -u *.html ../``` <br>
+## Task 15: ```mv [[:upper:]]* /tmp/u``` <br>
+## Task 16: ```rm *~``` <br>
+## Task 17: ```mkdir -p welcome/to/school``` <br>
+## Task 18: ```ls -amvp``` <br>
