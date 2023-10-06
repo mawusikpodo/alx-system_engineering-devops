@@ -1,4 +1,3 @@
- 
 global
         log /dev/log    local0
         log /dev/log    local1 notice
@@ -36,6 +35,13 @@ defaults
 frontend http
         bind *:80
         mode http
+        http-request set-header X-Forwarded-Proto http
+        default_backend web-backend
+
+frontend http
+        bind *:443 ssl crt /etc/haproxy/certs/www.mawusikpodo.tech.pem
+        http-request set-header X-Forwarded-Proto https
+        http-request redirect scheme https code 301 unless { ssl_fc }
         default_backend web-backend
 
 backend web-backend
