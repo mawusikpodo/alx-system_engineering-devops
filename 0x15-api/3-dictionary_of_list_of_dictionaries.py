@@ -13,6 +13,6 @@ if __name__ == '__main__':
             "username": usr.get("username"),
             "task": e.get("title"),
             "completed": e.get("completed")
-        } for e in r.get(url + "todos",
+        } for e in r.get(url + "tasks",
                          params={"userId": usr.get("id")}).json()]
             for usr in user}, jsonfile)
